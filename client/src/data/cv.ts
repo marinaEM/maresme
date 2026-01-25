@@ -43,7 +43,13 @@ export const cv = {
       role: "Postdoctoral Fellow",
       institution: "ETH AI Center, ETH Zürich",
       period: "Nov 2024 – Present",
-      description: "Research on AI in healthcare - translational biomedicine applied to cancer."
+      description: "Supervisors: Niko Beerenwinkel, Valentina Boeva. Application of Bayesian statistics and probabilistic explainable machine learning to unravel the heterogeneity and developmental mechanisms of neuroblastoma. Integrating mechanistic models with single-cell omics data into a Graph Convolutional Network (GCN) to analyse gene expression patterns and pathway interactions. Using transfer learning to extrapolate drug sensitivity knowledge from bench to patients."
+    },
+    {
+      role: "PhD Student",
+      institution: "Platform for Computational Medicine (University Hospital Virgen del Rocío), Sevilla, Spain",
+      period: "Feb 2020 – Jun 2024",
+      description: "Supervisor: Joaquín Dopazo PhD. Tutor: Sebastián Ventura PhD. Application of mechanistic approaches and Machine Learning methodologies for the integration of omics, clinical and biological data to generate detailed maps of cell response mechanisms in rare diseases and cancers. Validation with Real-World data from the Andalusian Health Population records database."
     },
     {
       role: "PhD EMBO Scientific Exchange Grant",
