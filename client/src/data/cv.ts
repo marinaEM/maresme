@@ -43,55 +43,49 @@ export const cv = {
       role: "Postdoctoral Fellow",
       institution: "ETH AI Center, ETH Zürich",
       period: "Nov 2024 – Present",
-      description: "Supervisors: Niko Beerenwinkel, Valentina Boeva. Application of Bayesian statistics and probabilistic explainable machine learning to unravel the heterogeneity and developmental mechanisms of neuroblastoma. Integrating mechanistic models with single-cell omics data into a Graph Convolutional Network (GCN) to analyse gene expression patterns and pathway interactions. Using transfer learning to extrapolate drug sensitivity knowledge from bench to patients."
+      description: "Researching cancer heterogeneity and neuroblastoma developmental mechanisms using Bayesian statistics, probabilistic ML, and Graph Convolutional Networks (GCN) to identify biomarkers and regulatory mechanisms."
     },
     {
-      role: "PhD Student",
+      role: "PhD Researcher",
       institution: "Platform for Computational Medicine (University Hospital Virgen del Rocío), Sevilla, Spain",
       period: "Feb 2020 – Jun 2024",
-      description: "Supervisor: Joaquín Dopazo PhD. Tutor: Sebastián Ventura PhD. Application of mechanistic approaches and Machine Learning methodologies for the integration of omics, clinical and biological data to generate detailed maps of cell response mechanisms in rare diseases and cancers. Validation with Real-World data from the Andalusian Health Population records database."
+      description: "Integrated multi-omics and clinical data using mechanistic approaches and machine learning to map cell response mechanisms in rare diseases and cancers, validated with large-scale population health records."
     },
     {
-      role: "PhD EMBO Scientific Exchange Grant",
+      role: "EMBO Scientific Exchange Fellow",
       institution: "Francis Crick Institute, London, United Kingdom",
       period: "Jul 2022 – Nov 2022",
-      description: "Supervisor: Francesca Ciccarelli PhD. Use of cancer genetic alterations combined with gene molecular and systems-level properties to detect rare patient specific drivers. Development of specific disease maps based on detected drivers and their biological processes, signaling pathways, protein interactions, and biological annotations. Application of Machine Learning methods to search for potential therapeutic targets."
+      description: "Detected rare patient-specific cancer drivers by combining genetic alterations with systems-level properties, developing specific disease maps and therapeutic target identification via ML."
     },
     {
       role: "Scientific Organizing Committee (SOC)",
       institution: "FEBS-IUBMB-ENABLE Conference 2022",
       period: "Nov 2021 – Dec 2022",
-      description: "Chair of Sponsors and Career Day. Organized 3-day international and interdisciplinary events for PhD students and postdocs, focusing on networking, career options, and science communication."
+      description: "Chaired Sponsors and Career Day for international interdisciplinary conferences, facilitating networking and science communication for early-career researchers."
     },
     {
-      role: "Contest Coordinators, Organizing Committee",
+      role: "Contest Coordinator",
       institution: "CAMDA under ISMB - ECCB2021",
       period: "Jan 2021 – Jul 2021",
-      description: "Annual International Conference on Critical Assessment and Massive Data Analysis."
+      description: "Coordinated contests for the Annual International Conference on Critical Assessment and Massive Data Analysis."
     },
     {
-      role: "Research Scientist (PhD Student)",
-      institution: "Platform for Computational Medicine, Fundación Progreso y Salud",
-      period: "2019 – 2024",
-      description: "Applied mechanistic approaches and machine learning methodologies for integrating omics, clinical, and biological data."
-    },
-    {
-      role: "Bioinformatics Master Thesis Student",
+      role: "Bioinformatics Graduate Researcher",
       institution: "Clinical Bioinformatics Area (FPS), Sevilla, Spain",
       period: "Jul 2018 – Jul 2019",
-      description: "Supervisor: Joaquín Dopazo PhD. Development of molecular mechanistic models based on machine learning and data mining in rare diseases. Development of novel tools for ensemble use of multiple databases to enable target discovery for gene therapies (Fanconi Anemia, Hirschsprung's disease)."
+      description: "Developed molecular mechanistic models and target discovery tools for gene therapies in rare diseases such as Fanconi Anemia and Hirschsprung's disease."
     },
     {
       role: "Research Trainee",
       institution: "Centre for Integrative Biology (CIBIO), Trento, Italy",
       period: "May 2017 – Sep 2017",
-      description: "Supervisor: Michela Denti PhD. Research in microRNAs (miRNAs) and their roles in lung cancer, focusing on tumor-specific expression signatures in response to EGFR inhibitors. RNA-seq, Microarray, and Proteomics analysis of patient samples and public databases."
+      description: "Investigated miRNA signatures and biomarkers in lung cancer response to EGFR inhibitors using RNA-seq, microarray, and proteomics analysis."
     },
     {
       role: "Research Trainee",
       institution: "DestiNA Genomics Ltd, Granada, Spain",
       period: "Nov 2016 – May 2017",
-      description: "Supervisor: Salvatore Pernagallo PhD. Development of a 'PCR free' system for nucleic acid analysis to detect c-microRNAs in plasma to identify new predictive non-invasive biomarkers for liver and prostate cancer."
+      description: "Developed a PCR-free nucleic acid analysis system to detect miRNA biomarkers for liver and prostate cancer in plasma."
     }
   ],
   interests: [

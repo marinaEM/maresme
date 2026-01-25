@@ -21,7 +21,7 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-            className="flex-shrink-0 w-48 h-48 md:w-64 md:h-64 relative grayscale hover:grayscale-0 transition-all duration-700"
+            className="flex-shrink-0 w-48 h-48 md:w-64 md:h-64 relative transition-all duration-700"
           >
             <img 
               src="/profile.jpg" 
