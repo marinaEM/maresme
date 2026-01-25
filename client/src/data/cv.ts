@@ -15,6 +15,33 @@ export const cv = {
       scholar: "https://scholar.google.com/citations?user=shSxsNIAAAAJ&hl=en"
     }
   },
+  conferences: [
+    { date: "October 2025", name: "Mathematical foundations of trustworthy Machine learning", location: "ETH Zürich, Ascona, Switzerland" },
+    { date: "September 2025", name: "Basel Computational Biology Conference (BC2)", location: "Basel, Switzerland" },
+    { date: "November 2024", name: "ELIXIR Biohackathon Europe", location: "Barcelona, Spain" },
+    { date: "November 2024", name: "Jornadas Andaluzas de Bioinformática II", location: "Granada, Spain" },
+    { date: "October 2023", name: "ELIXIR Biohackathon Europe", location: "Barcelona, Spain" },
+    { date: "September 2023", name: "6th Course on Computational Systems Biology of Cancer", location: "Paris, France" },
+    { date: "September 2023", name: "Jornadas Andaluzas de Bioinformática", location: "Sevilla, Spain" },
+    { date: "April 2023", name: "The 7th Disease Maps Community Meeting", location: "Maastricht, the Netherlands" },
+    { date: "November 2022", name: "First FEBS-IUBMB-ENABLE conference", location: "Seville, Spain" },
+    { date: "July 2022", name: "Radboudumc Ph.D. conference", location: "Nijmegen, Netherlands" },
+    { date: "June 2022", name: "European Association for Cancer Research 2022 Congress", location: "Sevilla, Spain" },
+    { date: "May 2022", name: "XV Reunión Anual CIBERER", location: "Spain" },
+    { date: "March 2022", name: "VI Jornadas de Bioinformática", location: "Granada, Spain" },
+    { date: "November 2021", name: "6th Disease Maps Community Meeting", location: "Online" },
+    { date: "July 2021", name: "ISMB/ECCB 2021", location: "Online" },
+    { date: "July 2021", name: "CIBERER XIV Annual meeting", location: "Online" },
+    { date: "April 2021", name: "The 4th MAQC Society Meeting", location: "Online" },
+    { date: "March 2021", name: "XVII Foro de Investigadores", location: "Sevilla, Spain" },
+    { date: "February 2021", name: "IV Spanish Bioinformatic conference", location: "Granada, Spain" },
+    { date: "November 2020", name: "BioHackathon 2020", location: "Online" },
+    { date: "April 2020", name: "EUvsVirus Hackathon", location: "Online" },
+    { date: "November 2019", name: "Advanced in computational biology (AdvCompBio 2019)", location: "Barcelona, Spain" },
+    { date: "November 2019", name: "Biohackathon Europe", location: "Paris, France" },
+    { date: "October 2019", name: "4th Disease Maps Community Meeting (DMCM2019)", location: "Sevilla, Spain" },
+    { date: "December 2018", name: "XIV Symposium on Bioinformatics", location: "Granada, Spain" }
+  ],
   education: [
     {
       degree: "PhD",

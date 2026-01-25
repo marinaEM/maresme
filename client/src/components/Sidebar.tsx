@@ -17,6 +17,7 @@ export function Sidebar({ className }: SidebarProps) {
     { id: "research", label: "Research & Interests" },
     { id: "publications", label: "Publications" },
     { id: "experience", label: "Experience" },
+    { id: "conferences", label: "Conferences" },
     { id: "contact", label: "Contact" },
   ];
 

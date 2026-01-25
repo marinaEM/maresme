@@ -1,0 +1,99 @@
+CONFERENCES AND CONGRESSES
+
+October 2025
+
+Mathematical foundations of trustworthy Machine learning, ETH Zürich, Ascona, Switzerland
+
+September 2025
+
+Basel Computational Biology Conference (BC2), Basel, Switzerland
+
+November 20
+
+ELIXIR Biohackathon Europe, Barcelona, Spain - Project 29 - Co - Lead
+
+Jornadas Andaluzas de Bioinformática II, Granada, Spain
+
+October 2023
+
+ELIXIR Biohackathon Europe, Barcelona, Spain (30-3 November)
+
+-Project 9
+
+Septemb
+
+6th Course on Computational Systems Biology of Cancer: models of data, data for models, 25-29 September Paris, France.
+
+Jornadas Andaluzas de Bioinformática, Sevilla, Spain
+
+April 2023
+
+The 7th Disease Maps Community Meeting, 3-5 April 2023 in Maastricht, the Netherlands. Short-talk: A mechanistic approach: Finding new therapeutic targets using Machine Learning modelization
+
+of Retinosis Pigmentaria
+
+16-18 November 2022 the first FEBS-IUBMB-ENABLE conference: "THE PERFECT TANDEM: How technology expands the frontiers of biomedicine", Seville, Spain.
+
+Julv 2022
+
+Radboudumc Ph.D. conference, Niimegen, Netherlands.
+
+e 2022
+
+European Association for Cancer Research 2022 Congress. In-person meeting. Sevilla, Spain.
+
+May
+
+XV Reunión Anual CIBERER, Spain. Online-hybrid.
+
+March 2022
+
+VI Jonadas de Bioinformática. Universidad de Granada. Granada, Spain. Online-hybrid
+
+November 2021
+
+6th Disease Maps Community Meeting. Online due to the pandemic
+
+July 202
+
+ISMB/ECCB 2021
+
+CAMDA: Critical Assessment of Massive Data Analysis
+
+The Disease Maps to modelling COVID-19 Challenge
+
+CIBERER XIV Annual meeting
+
+Short main talk, day 1: "A mechanistic approach: Finding new therapeutic targets using Machine Learning modelization of Retinitis Pigmentosa".
+
+April 2021
+
+THE 4TH MAOC SOCIETY MEETING
+
+Poster and short talk: "Accelerating drug repositioning in rare diseases with interpretable machine
+
+learning"
+
+March 2021
+
+XVII Foro de Investigadores
+
+Instituto de Biomedicina de Sevilla. Online due to the COVID-19 pandemic.
+
+PRICE: 3rd award - 3 Minute Thesis Video.
+
+February 2021
+
+IV Spanish Bioinformatic conference (University of Granada). Online.
+
+November 2020
+
+BioHackathon 2020
+
+Project 34: Development of a tool for mechanistic meta-analyses using COVID-19 available data as proof of concept
+
+Github https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/34
+
+https://github.com/babelomics/MechACov
+
+April 2020
