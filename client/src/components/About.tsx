@@ -2,6 +2,8 @@ import { cv } from "@/data/cv";
 import { motion } from "framer-motion";
 
 export function About() {
+  const paragraphs = cv.basics.about.split('\n\n');
+
   return (
     <section id="about" className="py-24 bg-background">
       <div className="container px-6 md:px-12">
@@ -19,12 +21,13 @@ export function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <h3 className="text-lg font-medium mb-6 uppercase tracking-wider text-muted-foreground text-xs">Bio</h3>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                I am a computational biologist driven by the challenge of decoding cancer heterogeneity. My work sits at the intersection of machine learning, statistics, and oncology.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Currently, I am expanding my research at ETH Zürich, focusing on pathway-aware representation learning and optimal transport methods to better understand how cancer cells evolve and respond to treatment.
-              </p>
+              <div className="space-y-4">
+                {paragraphs.map((p, i) => (
+                  <p key={i} className="text-muted-foreground leading-relaxed">
+                    {p}
+                  </p>
+                ))}
+              </div>
             </div>
 
             <div>

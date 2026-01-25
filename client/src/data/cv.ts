@@ -1,37 +1,39 @@
 export const cv = {
   basics: {
-    name: "Marina Esteban Medina",
+    name: "Marina Esteban-Medina",
     title: "Postdoctoral Fellow",
-    affiliation: "ETH Zürich AI Center & ETH Zürich D-BSSE",
+    affiliation: "ETH AI Center",
     location: "Zürich, Switzerland",
     email: "marina.estebanm@gmail.com",
-    summary: "Postdoctoral Fellow at ETH Zürich AI Center & ETH Zürich D-BSSE specializing in probabilistic machine learning for translational oncology. My research integrates single-cell and bulk transcriptomics using Bayesian statistics, optimal transport, and pathway-aware representation learning to unravel cancer heterogeneity and improve precision medicine.",
+    summary: "Postdoctoral Fellow at the ETH AI Center specializing in translational biomedicine applied to cancer. My research employs Bayesian statistics, probabilistic machine learning, and computational biology to unravel cancer heterogeneity and identify driving events from complex omics data to aid clinical decision-making.",
+    about: "As a Postdoctoral Fellow at the ETH AI Center, I focus on translational biomedicine applied to cancer. My current project employs Bayesian statistics, probabilistic machine learning, and computational biology to study aberrant biological events leading to cancer development based on omics data, aiming to unravel cancer heterogeneity and identify driving events.\n\nI hold degrees in Biotechnology and Biomedicine, along with MSc in Drug R&D and Bioinformatics. During my PhD, I specialized in data mining, machine learning, and mechanistic modelling of complex systems for drug repurposing purposes, concentrating on rare diseases.\n\nPassionate about applying advanced data analysis and rigorous statistics, I strive to uncover patterns in complex biological systems and translate these insights into meaningful advances that aid clinical decision-making for human health.",
     social: {
-      linkedin: "https://www.linkedin.com/in/marina-esteban-medina-phd-4b9b9b1b1", 
-      orcid: "https://orcid.org/0000-0002-3636-3729",
+      linkedin: "https://www.linkedin.com/in/marina-esteban-medina-655046290", 
+      orcid: "https://orcid.org/0000-0003-2632-9587",
       github: "https://github.com/marinaesteban",
-      email: "mailto:marina.estebanm@gmail.com"
+      email: "mailto:marina.estebanm@gmail.com",
+      scholar: "https://scholar.google.com/citations?user=shSxsNIAAAAJ&hl=en"
     }
   },
   education: [
     {
-      degree: "PhD in Advanced Computing Energy and Plasmas",
-      institution: "University of Córdoba",
+      degree: "PhD",
+      institution: "Specialized in data mining, machine learning, and mechanistic modelling",
       year: "2024",
-      details: "Grade: Outstanding Cum Laude."
+      details: "Focus on drug repurposing and rare diseases."
     },
     {
       degree: "MSc in Bioinformatics",
-      institution: "University of Murcia",
+      institution: "ENS/ISCIII, Madrid",
       year: "2018"
     },
     {
-      degree: "MRes in Drug Research and Innovation",
+      degree: "MSc in Drug Research & Development",
       institution: "University of Málaga",
       year: "2017"
     },
     {
-      degree: "BSc in Biotechnology",
+      degree: "BSc in Biotechnology & Biomedicine",
       institution: "University of Cádiz",
       year: "2015"
     }
@@ -39,154 +41,114 @@ export const cv = {
   experience: [
     {
       role: "Postdoctoral Fellow",
-      institution: "ETH Zürich AI Center & ETH D-BSSE",
+      institution: "ETH AI Center, ETH Zürich",
       period: "Nov 2024 – Present",
-      description: "Working with Prof. Niko Beerenwinkel and Prof. Valentina Boeva on probabilistic ML for translational oncology."
+      description: "Research on AI in healthcare - translational biomedicine applied to cancer."
     },
     {
-      role: "PhD Student",
-      institution: "Platform for Computational Medicine, University Hospital Virgen del Rocío",
-      period: "Feb 2020 – Jun 2024",
-      description: "Focus on machine learning applications in precision medicine and transcriptomics."
-    },
-    {
-      role: "EMBO Scientific Exchange Fellow",
-      institution: "The Francis Crick Institute, London",
-      period: "Jul 2022 – Nov 2022",
-      description: "Research exchange focusing on advanced computational biology methods."
+      role: "Research Scientist",
+      institution: "Platform for Computational Medicine, Fundación Progreso y Salud",
+      period: "2019 – 2024",
+      description: "Applied mechanistic approaches and machine learning methodologies for integrating omics, clinical, and biological data."
     }
   ],
   interests: [
     "Probabilistic Machine Learning",
-    "Explainable AI",
-    "Bayesian Modeling",
-    "Optimal Transport",
-    "Single-cell Omics",
+    "Bayesian Statistics",
+    "Computational Biology",
     "Cancer Heterogeneity",
-    "Mechanistic Models",
-    "Drug Repurposing",
-    "Precision Medicine",
-    "Translational Oncology"
+    "Translational Biomedicine",
+    "Mechanistic Modeling",
+    "Explainable AI",
+    "Digital Health"
   ],
   projects: [
     {
-      title: "InterceptMedML",
-      code: "PID2020-117979RB-I00",
-      description: "Interpretability and explainability in Machine Learning models for precision medicine."
+      title: "BioHackathon Europe 2025",
+      description: "Participated with SIB (Swiss Institute of Bioinformatics) in collaborative coding for bioinformatics."
     },
     {
-      title: "Precision Genomic Medicine",
-      description: "Decision-support systems for clinical implementation of precision genomic medicine."
-    },
-    {
-      title: "Sarcoma Targets",
-      description: "Identification of therapeutic targets in sarcomas using computational approaches."
-    },
-    {
-      title: "COVID-19 Repurposing",
-      description: "Drug repurposing tools and vaccine development support during the pandemic."
-    },
-    {
-      title: "COVID-19 Disease Map",
-      description: "Contribution to the global community-driven knowledge repository."
+      title: "drexml",
+      description: "A command line tool and Python package for rational data-driven drug repurposing."
     }
   ],
   publications: [
     {
-      title: "Network-based mechanistic modeling of the response to drug combinations in clear cell renal cell carcinoma",
-      journal: "NPJ Systems Biology and Applications",
-      year: 2024,
-      doi: "10.1038/s41540-024-00363-2"
-    },
-    {
-      title: "DREXML: A command line tool and python package for finding shap-based explanations of drug repurposing models",
+      title: "drexml: A command line tool and Python package for drug repurposing",
+      authors: "M Esteban-Medina, VM de la Oliva Roque, S Herráiz-Gil, M Peña-Chilet, ...",
       journal: "Computational and Structural Biotechnology Journal",
       year: 2024,
-      doi: "10.1016/j.csbj.2024.03.018"
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:YOwf2qJgpHMC"
     },
     {
-      title: "Machine learning integration of gene expression and signaling activation to predict the response to immune checkpoint inhibitors in melanoma",
+      title: "Immune digital twins for complex human pathologies: applications, limitations, and challenges",
+      authors: "A Niarakis, R Laubenbacher, G An, Y Ilan, J Fisher, Å Flobak, K Reiche, ...",
+      journal: "NPJ systems biology and applications",
+      year: 2024,
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:Wp0gIr-vW9MC"
+    },
+    {
+      title: "Drug-target identification in COVID-19 disease mechanisms using computational systems biology approaches",
+      authors: "A Niarakis, M Ostaszewski, A Mazein, I Kuperstein, M Kutmon, ...",
+      journal: "Frontiers in immunology",
+      year: 2024,
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:KlAtU1dfN6UC"
+    },
+    {
+      title: "The mechanistic functional landscape of retinitis pigmentosa: A machine learning-driven approach to therapeutic target discovery",
+      authors: "M Esteban-Medina, C Loucera, K Rian, S Velasco, L Olivares-González, ...",
       journal: "Journal of Translational Medicine",
       year: 2024,
-      doi: "10.1186/s12967-023-04845-8"
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:0EnyYjriUFMC"
     },
     {
-      title: "Explainable machine learning to identify functional maps of host factors involved in the response to SARS-CoV-2 infection",
-      journal: "Frontiers in Immunology",
-      year: 2024,
-      doi: "10.3389/fimmu.2023.1328498"
-    },
-    {
-      title: "Targeting specific cell types with engineered oncolytic adenoviruses",
+      title: "Real-world evidence with a retrospective cohort of 15,968 COVID-19 hospitalized patients suggests 21 new effective treatments",
+      authors: "C Loucera, R Carmona, M Esteban-Medina, G Bostelmann, ...",
       journal: "Virology Journal",
       year: 2023,
-      doi: "10.1186/s12985-023-02058-2"
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:UebtZRa9Y70C"
     },
     {
-      title: "Characterization of the Mechanism of Action of the Pan-Class I PI3K Inhibitor Copanlisib Reveals the Importance of PUMA-Mediated Apoptosis in Colon Cancer Cells",
+      title: "Functional profiling of soft tissue sarcoma using mechanistic models",
+      authors: "M Payá-Milans, M Peña-Chilet, C Loucera, M Esteban-Medina, J Dopazo",
       journal: "International Journal of Molecular Sciences",
       year: 2023,
-      doi: "10.3390/ijms24097962"
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:8k81kl-MbHgC"
     },
     {
-      title: "Explainable machine learning to predict immunogenic cell death pathway activation from transcriptomic data",
+      title: "Visualization of automatically combined disease maps and pathway diagrams for rare diseases",
+      authors: "P Gawron, D Hoksza, J Piñero, M Peña-Chilet, M Esteban-Medina, ...",
       journal: "Frontiers in Bioinformatics",
       year: 2023,
-      doi: "10.3389/fbinf.2023.1128362"
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:hqOjcs7Dif8C"
     },
     {
-      title: "Hypoxia-Inducible Factor 1 Alpha (HIF-1α) as a target for innovation in the treatment of papillary thyroid cancer",
+      title: "An SPM-Enriched Marine Oil Supplement Shifted Microglia Polarization toward M2, Ameliorating Retinal Degeneration in rd10 Mice",
+      authors: "L Olivares-González, S Velasco, I Gallego, M Esteban-Medina, G Puras, ...",
       journal: "Antioxidants",
       year: 2022,
-      doi: "10.3390/antiox11112282"
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:qjMakFHDy7sC"
     },
     {
-      title: "Transcriptional Regulation of the Sodium/Iodide Symporter due to T1799A BRAF Mutation in Papillary Thyroid Cancer",
+      title: "Endoglin and MMP14 Contribute to Ewing Sarcoma Spreading by Modulation of Cell–Matrix Interactions",
+      authors: "P Puerto-Camacho, J Díaz-Martín, J Olmedo-Pelayo, A Bolado-Carrancio, ...",
       journal: "International Journal of Molecular Sciences",
       year: 2022,
-      doi: "10.3390/ijms231911685"
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:WF5omc3nYNoC"
     },
     {
-      title: "Detailed kinetic model of the replication of the RNA of the SARS-CoV-2",
-      journal: "Scientific Reports",
+      title: "Real world evidence of calcifediol or vitamin D prescription and mortality rate of COVID-19 in a retrospective cohort of hospitalized Andalusian patients",
+      authors: "C Loucera, M Peña-Chilet, M Esteban-Medina, D Muñoyerro-Muñiz, ...",
+      journal: "Scientific reports",
       year: 2021,
-      doi: "10.1038/s41598-021-97217-7"
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:YsMSGLbcyi4C"
     },
     {
-      title: "COVID-19 Disease Map, a computational knowledge repository of virus–host interaction mechanisms",
-      journal: "Molecular Systems Biology",
+      title: "COVID19 Disease Map, a computational knowledge repository of virus–host interaction mechanisms",
+      authors: "M Ostaszewski, A Niarakis, A Mazein, I Kuperstein, R Phair, ...",
+      journal: "Molecular systems biology",
       year: 2021,
-      doi: "10.15252/msb.202110387"
-    },
-    {
-      title: "Kinetic modeling of the replication of the SARS-CoV-2 in Vero E6 cells",
-      journal: "Computational and Structural Biotechnology Journal",
-      year: 2021,
-      doi: "10.1016/j.csbj.2021.06.014"
-    },
-    {
-      title: "Repurposing drugs for the treatment of COVID-19: a mechanistic approach",
-      journal: "Signal Transduction and Targeted Therapy",
-      year: 2020,
-      doi: "10.1038/s41392-020-00362-8"
-    },
-    {
-      title: "Hipathia: a mechanistic model to estimate functional profiles from transcriptomic data",
-      journal: "BioData Mining",
-      year: 2021,
-      doi: "10.1186/s13040-021-00276-8"
-    },
-    {
-      title: "Mechanistic models of signaling pathways deconvolute the multiscale nature of disease",
-      journal: "Scientific Reports",
-      year: 2019,
-      doi: "10.1038/s41598-019-51478-1"
-    },
-    {
-      title: "A mechanistic model of the neural pathway of the reward system",
-      journal: "BMC Bioinformatics",
-      year: 2019,
-      doi: "10.1186/s12859-019-2917-0"
+      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=shSxsNIAAAAJ&citation_for_view=shSxsNIAAAAJ:Se3iqnhoufwC"
     }
   ]
 };
