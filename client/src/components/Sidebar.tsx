@@ -100,7 +100,7 @@ export function Sidebar({ className }: SidebarProps) {
             <a href="https://github.com/marinaesteban" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Github size={18} />
             </a>
-            <a href="https://www.linkedin.com/in/marina-esteban-medina-phd-4b9b9b1b1" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/marina-esteban-medina-655046290" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Linkedin size={18} />
             </a>
             <a href="mailto:marina.estebanm@gmail.com" className="hover:text-primary transition-colors">
