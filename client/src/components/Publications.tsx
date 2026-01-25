@@ -110,14 +110,14 @@ export function Publications() {
                                       Scholar View <ExternalLink size={10} />
                                     </a>
                                   )}
-                                  {pub.doi && (
+                                  {(pub as any).doi && (
                                     <a 
-                                      href={`https://doi.org/${pub.doi}`}
+                                      href={`https://doi.org/${(pub as any).doi}`}
                                       target="_blank"
                                       rel="noopener noreferrer"
                                       className="inline-flex items-center gap-1 text-xs text-primary/70 hover:text-primary hover:underline"
                                     >
-                                      DOI: {pub.doi} <ExternalLink size={10} />
+                                      DOI: {(pub as any).doi} <ExternalLink size={10} />
                                     </a>
                                   )}
                                 </div>

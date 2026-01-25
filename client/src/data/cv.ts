@@ -46,10 +46,46 @@ export const cv = {
       description: "Research on AI in healthcare - translational biomedicine applied to cancer."
     },
     {
-      role: "Research Scientist",
+      role: "PhD EMBO Scientific Exchange Grant",
+      institution: "Francis Crick Institute, London, United Kingdom",
+      period: "Jul 2022 – Nov 2022",
+      description: "Supervisor: Francesca Ciccarelli PhD. Use of cancer genetic alterations combined with gene molecular and systems-level properties to detect rare patient specific drivers. Development of specific disease maps based on detected drivers and their biological processes, signaling pathways, protein interactions, and biological annotations. Application of Machine Learning methods to search for potential therapeutic targets."
+    },
+    {
+      role: "Scientific Organizing Committee (SOC)",
+      institution: "FEBS-IUBMB-ENABLE Conference 2022",
+      period: "Nov 2021 – Dec 2022",
+      description: "Chair of Sponsors and Career Day. Organized 3-day international and interdisciplinary events for PhD students and postdocs, focusing on networking, career options, and science communication."
+    },
+    {
+      role: "Contest Coordinators, Organizing Committee",
+      institution: "CAMDA under ISMB - ECCB2021",
+      period: "Jan 2021 – Jul 2021",
+      description: "Annual International Conference on Critical Assessment and Massive Data Analysis."
+    },
+    {
+      role: "Research Scientist (PhD Student)",
       institution: "Platform for Computational Medicine, Fundación Progreso y Salud",
       period: "2019 – 2024",
       description: "Applied mechanistic approaches and machine learning methodologies for integrating omics, clinical, and biological data."
+    },
+    {
+      role: "Bioinformatics Master Thesis Student",
+      institution: "Clinical Bioinformatics Area (FPS), Sevilla, Spain",
+      period: "Jul 2018 – Jul 2019",
+      description: "Supervisor: Joaquín Dopazo PhD. Development of molecular mechanistic models based on machine learning and data mining in rare diseases. Development of novel tools for ensemble use of multiple databases to enable target discovery for gene therapies (Fanconi Anemia, Hirschsprung's disease)."
+    },
+    {
+      role: "Research Trainee",
+      institution: "Centre for Integrative Biology (CIBIO), Trento, Italy",
+      period: "May 2017 – Sep 2017",
+      description: "Supervisor: Michela Denti PhD. Research in microRNAs (miRNAs) and their roles in lung cancer, focusing on tumor-specific expression signatures in response to EGFR inhibitors. RNA-seq, Microarray, and Proteomics analysis of patient samples and public databases."
+    },
+    {
+      role: "Research Trainee",
+      institution: "DestiNA Genomics Ltd, Granada, Spain",
+      period: "Nov 2016 – May 2017",
+      description: "Supervisor: Salvatore Pernagallo PhD. Development of a 'PCR free' system for nucleic acid analysis to detect c-microRNAs in plasma to identify new predictive non-invasive biomarkers for liver and prostate cancer."
     }
   ],
   interests: [
@@ -63,6 +99,44 @@ export const cv = {
     "Digital Health"
   ],
   projects: [
+    {
+      title: "InterceptMedML",
+      code: "PID2020-117979RB-100 (Spanish Ministry)",
+      description: "Interceptive medicine, target discovery and drug repurposing with mechanistic models and machine learning."
+    },
+    {
+      title: "Precision Genomic Medicine Support System",
+      code: "Spanish Ministry",
+      description: "Development of a bioinformatics system to support decision-making in precision genomic medicine for personalised cancer treatment in the healthcare system."
+    },
+    {
+      title: "Sarcoma Therapeutic Targets",
+      code: "AES-ISCIII FIS20 (P/20/01305)",
+      description: "Mechanistic models using Machine Learning for therapeutic targets discovery and drug repurposing in Sarcoma."
+    },
+    {
+      title: "COVID-19 Drug Repurposing",
+      description: "Fast and accurate drug repurposing for COVID-19 based on mechanistic models and artificial intelligence."
+    },
+    {
+      title: "COVID-19 Immune Response Prediction",
+      code: "European Regional Development Fund 21016 FEDER",
+      description: "Tools for the prediction of immune response to COVID-19 in patients and design of optimal vaccine tailored to the local population."
+    },
+    {
+      title: "COVID-19 Disease Map",
+      description: "Member of the COVID-19 Disease Map Community project."
+    },
+    {
+      title: "Rare Disease Drug Repurposing",
+      code: "BBVA Foundation",
+      description: "Large-scale drug repurposing in rare diseases by genomic Big Data analysis with machine learning methods."
+    },
+    {
+      title: "Mathematical Modelling for Rare Diseases",
+      code: "ACCI2018-29, CIBERER (Spanish Ministry)",
+      description: "Mathematical modelling of disease mechanisms for drug repositioning in rare diseases."
+    },
     {
       title: "BioHackathon Europe 2025",
       description: "Participated with SIB (Swiss Institute of Bioinformatics) in collaborative coding for bioinformatics."
