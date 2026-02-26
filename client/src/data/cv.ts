@@ -4,14 +4,14 @@ export const cv = {
     title: "Postdoctoral Fellow",
     affiliation: "ETH AI Center",
     location: "Zürich, Switzerland",
-    email: "marina.estebanm@gmail.com",
+    email: "marinaestebanmedina[at]ai[dot]ethz[dot]ch",
     summary: "Postdoctoral Fellow at the ETH AI Center specializing in translational biomedicine applied to cancer. My research employs Bayesian statistics, probabilistic machine learning, and computational biology to unravel cancer heterogeneity and identify driving events from complex omics data to aid clinical decision-making.",
     about: "As a Postdoctoral Fellow at the ETH AI Center, I focus on translational biomedicine applied to cancer. My current project employs Bayesian statistics, probabilistic machine learning, and computational biology to study aberrant biological events leading to cancer development based on omics data, aiming to unravel cancer heterogeneity and identify driving events.\n\nI hold degrees in Biotechnology and Biomedicine, along with MSc in Drug R&D and Bioinformatics. During my PhD, I specialized in data mining, machine learning, and mechanistic modelling of complex systems for drug repurposing purposes, concentrating on rare diseases.\n\nPassionate about applying advanced data analysis and rigorous statistics, I strive to uncover patterns in complex biological systems and translate these insights into meaningful advances that aid clinical decision-making for human health.",
     social: {
       linkedin: "https://www.linkedin.com/in/marina-esteban-medina-655046290/", 
       orcid: "https://orcid.org/0000-0003-2632-9587",
       github: "https://github.com/marinaEM",
-      email: "mailto:marina.estebanm@gmail.com",
+      email: "mailto:marinaestebanmedina@ai.ethz.ch",
       scholar: "https://scholar.google.com/citations?user=shSxsNIAAAAJ&hl=en"
     }
   },

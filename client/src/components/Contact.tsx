@@ -45,9 +45,9 @@ export function Contact() {
                   <div className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center">
                     <Mail size={18} />
                   </div>
-                  <a href={`mailto:${cv.basics.email}`} className="hover:underline opacity-90 hover:opacity-100">
+                  <span className="opacity-90">
                     {cv.basics.email}
-                  </a>
+                  </span>
                 </div>
                 
                 <div className="flex items-center gap-4">

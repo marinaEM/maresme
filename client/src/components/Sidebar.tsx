@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { Menu, X, Github, Linkedin, Mail, FileText } from "lucide-react";
+import { Menu, X, Linkedin, Mail, FileText } from "lucide-react";
 
 interface SidebarProps {
   className?: string;
@@ -73,8 +73,7 @@ export function Sidebar({ className }: SidebarProps) {
         <div className="flex flex-col h-full p-8 justify-between">
           <div>
             <div className="mb-12">
-              <h1 className="text-xl font-bold tracking-tight text-primary">M.E. Medina</h1>
-              <p className="text-sm text-muted-foreground mt-1">PhD | Postdoc Fellow</p>
+              <h1 className="text-xl font-bold tracking-tight text-primary">AI for healthcare</h1>
             </div>
 
             <nav className="flex flex-col space-y-4">
@@ -96,8 +95,8 @@ export function Sidebar({ className }: SidebarProps) {
           </div>
 
           <div className="flex gap-4 text-muted-foreground">
-            <a href="https://github.com/marinaEM" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-              <Github size={18} />
+            <a href={`${import.meta.env.BASE_URL}cv.pdf`} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              <FileText size={18} />
             </a>
             <a href="https://www.linkedin.com/in/marina-esteban-medina-655046290/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Linkedin size={18} />
@@ -105,7 +104,7 @@ export function Sidebar({ className }: SidebarProps) {
             <a href="https://scholar.google.com/citations?user=shSxsNIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <FileText size={18} />
             </a>
-            <a href="mailto:marina.estebanm@gmail.com" className="hover:text-primary transition-colors">
+            <a href="mailto:marinaestebanmedina@ai.ethz.ch" className="hover:text-primary transition-colors">
               <Mail size={18} />
             </a>
           </div>
