@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { Menu, X, Linkedin, Mail, FileText } from "lucide-react";
+import { Menu, X, Linkedin, Mail, GraduationCap } from "lucide-react";
 
 interface SidebarProps {
   className?: string;
@@ -102,9 +102,9 @@ export function Sidebar({ className }: SidebarProps) {
               <Linkedin size={18} />
             </a>
             <a href="https://scholar.google.com/citations?user=shSxsNIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-              <FileText size={18} />
+              <GraduationCap size={18} />
             </a>
-            <a href="mailto:marinaestebanmedina@ai.ethz.ch" className="hover:text-primary transition-colors">
+            <a href="mailto:marina.estebanmedina@ai.ethz.ch" className="hover:text-primary transition-colors">
               <Mail size={18} />
             </a>
           </div>

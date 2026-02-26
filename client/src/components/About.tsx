@@ -38,10 +38,18 @@ export function About() {
                     <span className="absolute -left-[5px] top-2 w-[9px] h-[9px] rounded-full bg-border"></span>
                     <h4 className="font-semibold text-foreground">{edu.degree}</h4>
                     <p className="text-sm text-muted-foreground mt-1">{edu.institution}</p>
-                    <div className="flex justify-between items-center mt-2">
-                      <span className="text-xs font-mono text-muted-foreground">{edu.year}</span>
-                      {edu.details && <span className="text-xs text-primary/70 italic">{edu.details}</span>}
-                    </div>
+                    {edu.details && (
+                      <p className="text-xs text-primary/70 italic mt-2">
+                        {"link" in edu && edu.link ? (
+                          <a href={edu.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                            {edu.details}
+                          </a>
+                        ) : (
+                          edu.details
+                        )}
+                      </p>
+                    )}
+                    <span className="text-xs font-mono text-muted-foreground mt-1 block">{edu.year}</span>
                   </div>
                 ))}
               </div>

@@ -4,14 +4,14 @@ export const cv = {
     title: "Postdoctoral Fellow",
     affiliation: "ETH AI Center",
     location: "Zürich, Switzerland",
-    email: "marinaestebanmedina[at]ai[dot]ethz[dot]ch",
+    email: "marina[dot]estebanmedina[at]ai[dot]ethz[dot]ch",
     summary: "Postdoctoral Fellow at the ETH AI Center specializing in translational biomedicine applied to cancer. My research employs Bayesian statistics, probabilistic machine learning, and computational biology to unravel cancer heterogeneity and identify driving events from complex omics data to aid clinical decision-making.",
     about: "As a Postdoctoral Fellow at the ETH AI Center, I focus on translational biomedicine applied to cancer. My current project employs Bayesian statistics, probabilistic machine learning, and computational biology to study aberrant biological events leading to cancer development based on omics data, aiming to unravel cancer heterogeneity and identify driving events.\n\nI hold degrees in Biotechnology and Biomedicine, along with MSc in Drug R&D and Bioinformatics. During my PhD, I specialized in data mining, machine learning, and mechanistic modelling of complex systems for drug repurposing purposes, concentrating on rare diseases.\n\nPassionate about applying advanced data analysis and rigorous statistics, I strive to uncover patterns in complex biological systems and translate these insights into meaningful advances that aid clinical decision-making for human health.",
     social: {
       linkedin: "https://www.linkedin.com/in/marina-esteban-medina-655046290/", 
       orcid: "https://orcid.org/0000-0003-2632-9587",
       github: "https://github.com/marinaEM",
-      email: "mailto:marinaestebanmedina@ai.ethz.ch",
+      email: "mailto:marina.estebanmedina@ai.ethz.ch",
       scholar: "https://scholar.google.com/citations?user=shSxsNIAAAAJ&hl=en"
     }
   },
@@ -44,13 +44,14 @@ export const cv = {
   ],
   education: [
     {
-      degree: "PhD",
-      institution: "Specialized in data mining, machine learning, and mechanistic modelling",
+      degree: "PhD in Computer Science",
+      institution: "University of Córdoba",
       year: "2024",
-      details: "Focus on drug repurposing and rare diseases."
+      details: "Leveraging machine learning and mechanistic models for therapeutic target discovery and drug repositioning",
+      link: "https://helvia.uco.es/xmlui/handle/10396/28484"
     },
     {
-      degree: "MSc in Bioinformatics",
+      degree: "MSc in Bioinformatics and Computational Biology",
       institution: "ENS/ISCIII, Madrid",
       year: "2018"
     },
@@ -174,6 +175,13 @@ export const cv = {
     }
   ],
   publications: [
+    {
+      title: "Domain-adaptation deep learning models do not outperform simple baseline models in single-cell anti-cancer drug sensitivity prediction",
+      authors: "M Esteban-Medina, M Bohl, N Beerenwinkel, K Lenhof",
+      journal: "Preprint",
+      year: 2026,
+      link: "https://doi.org/10.64898/2026.02.24.707713"
+    },
     {
       title: "drexml: A command line tool and Python package for drug repurposing",
       authors: "M Esteban-Medina, VM de la Oliva Roque, S Herráiz-Gil, M Peña-Chilet, ...",
