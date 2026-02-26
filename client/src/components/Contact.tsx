@@ -64,8 +64,11 @@ export function Contact() {
                   <a href={cv.basics.social.github} target="_blank" rel="noopener noreferrer" className="p-3 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors">
                     <Github size={20} />
                   </a>
-                  <a href={cv.basics.social.linkedin} target="_blank" rel="noopener noreferrer" className="p-3 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors">
+                  <a href="https://www.linkedin.com/in/marina-esteban-medina-655046290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="p-3 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors">
                     <Linkedin size={20} />
+                  </a>
+                  <a href="https://scholar.google.com/citations?user=shSxsNIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="p-3 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors">
+                    <FileText size={20} />
                   </a>
                 </div>
               </div>

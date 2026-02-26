@@ -100,8 +100,11 @@ export function Sidebar({ className }: SidebarProps) {
             <a href="https://github.com/marinaesteban" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Github size={18} />
             </a>
-            <a href="https://www.linkedin.com/in/marina-esteban-medina-655046290" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/marina-esteban-medina-655046290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Linkedin size={18} />
+            </a>
+            <a href="https://scholar.google.com/citations?user=shSxsNIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              <FileText size={18} />
             </a>
             <a href="mailto:marina.estebanm@gmail.com" className="hover:text-primary transition-colors">
               <Mail size={18} />

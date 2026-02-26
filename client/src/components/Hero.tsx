@@ -66,10 +66,12 @@ export function Hero() {
                 Get in Touch
               </a>
               <a 
-                href="#publications" 
-                className="px-6 py-3 border border-border bg-background text-foreground text-sm font-medium rounded-none hover:bg-secondary transition-all active:scale-95"
+                href="https://scholar.google.com/citations?user=shSxsNIAAAAJ&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 border border-border bg-background text-foreground text-sm font-medium rounded-none hover:bg-secondary transition-all active:scale-95 flex items-center gap-2"
               >
-                View Publications
+                Google Scholar
               </a>
             </div>
           </motion.div>
