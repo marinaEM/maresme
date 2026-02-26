@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Link } from "wouter";
 import { cn } from "@/lib/utils";
 import { Menu, X, Github, Linkedin, Mail, FileText } from "lucide-react";
 
