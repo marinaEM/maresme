@@ -1,6 +1,6 @@
 import { cv } from "@/data/cv";
 import { motion } from "framer-motion";
-import { Linkedin, Mail, MapPin, GraduationCap, Github } from "lucide-react";
+import { Linkedin, Mail, MapPin, FileText, GraduationCap, Github } from "lucide-react";
 
 export function Contact() {
   return (

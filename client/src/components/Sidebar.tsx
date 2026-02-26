@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { Menu, X, Linkedin, Mail, GraduationCap } from "lucide-react";
+import { Menu, X, Linkedin, Mail, FileText, GraduationCap } from "lucide-react";
 
 interface SidebarProps {
   className?: string;
