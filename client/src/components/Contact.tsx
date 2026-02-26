@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { cv } from "@/data/cv";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, FileText } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export function Contact() {
