@@ -1,6 +1,6 @@
 import { cv } from "@/data/cv";
 import { motion } from "framer-motion";
-import { Linkedin, Mail, MapPin, GraduationCap } from "lucide-react";
+import { Linkedin, Mail, MapPin, GraduationCap, Github } from "lucide-react";
 
 export function Contact() {
   return (
@@ -40,7 +40,7 @@ export function Contact() {
 
               <div className="flex gap-4 mt-8">
                 <a href={cv.basics.social.github} target="_blank" rel="noopener noreferrer" className="p-3 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors">
-                  <FileText size={20} />
+                  <Github size={20} />
                 </a>
                 <a href={cv.basics.social.linkedin} target="_blank" rel="noopener noreferrer" className="p-3 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors">
                   <Linkedin size={20} />
