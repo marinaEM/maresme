@@ -8,7 +8,7 @@ export function Hero() {
       <div 
         className="absolute inset-0 z-0 opacity-[0.4] mix-blend-multiply"
         style={{
-          backgroundImage: "url('/hero-texture.png')",
+          backgroundImage: `url('${import.meta.env.BASE_URL}hero-texture.png')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -24,7 +24,7 @@ export function Hero() {
             className="flex-shrink-0 w-48 h-48 md:w-64 md:h-64 relative transition-all duration-700"
           >
             <img 
-              src="/profile.jpg" 
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
               alt={cv.basics.name}
               className="w-full h-full object-cover shadow-2xl border-4 border-white dark:border-zinc-900"
               onError={(e) => {
